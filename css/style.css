@@ -4,6 +4,110 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 96px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  overflow: hidden;
+}
+@media screen and (max-width: 960px) {
+  .container {
+    flex-direction: column;
+    padding: 32px 18px;
+  }
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-item-1 {
+  flex: 1 1 360px;
+}
+
+.flex-item-2 {
+  flex: 2 1 360px;
+}
+
+.flex-item-3 {
+  flex: 3 1 360px;
+}
+
+.flex-item-4 {
+  flex: 4 1 360px;
+}
+
+.flex-item-5 {
+  flex: 5 1 360px;
+}
+
+.flex-item-auto {
+  flex: 2 1 auto;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.hero {
+  height: 90vh;
+}
+@media screen and (max-width: 960px) {
+  .hero {
+    height: auto;
+  }
+}
+
 h1 {
   color: #161617;
   font-family: "Sora", sans-serif;
@@ -666,7 +770,6 @@ header {
   width: 100vw;
   height: 100vh;
   background-color: #F7F2FA;
-  background-color: #F7F2FA;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -686,6 +789,17 @@ header {
   list-style: none;
   display: flex;
   flex-direction: column;
+}
+.nav-list__mobile svg {
+  width: 36px;
+  height: 36px;
+}
+.nav-list__mobile svg path {
+  stroke: #A6A6A7;
+  transition: 0.7s ease;
+}
+.nav-list__mobile svg:hover path {
+  stroke: #82269E;
 }
 
 .nav-link__mobile {

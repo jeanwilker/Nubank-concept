@@ -253,7 +253,6 @@ header{
 
     background-color: $white-normal;
 
-    background-color: $white-normal;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,10 +262,6 @@ header{
 
     transform: translate3d(0,-100px,0);
     transition: 1s ease;
-
-    //@include responsive(s){
-        //display: block;
-    //}
 }
 
 .menu-mobile__active{
@@ -280,6 +275,22 @@ header{
 
     display: flex;
     flex-direction: column;
+
+    svg{
+        width: 36px;
+        height: 36px;
+
+        path{
+            stroke: $gray-7;
+            transition: .7s ease;
+        }
+
+        &:hover{
+            path{
+                stroke: $primary-normal;
+            }
+        }
+    }
 }
 
 .nav-link__mobile{
