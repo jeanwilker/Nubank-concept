@@ -1,5 +1,3 @@
-// Layout of project
-
 // Container devices
 
 $container-xl: 1440px;
@@ -144,10 +142,28 @@ $container-s: 540px;
     overflow: hidden;
 }
 
+//HERO
 .hero{
     height: 90vh;
 
     @include responsive(s){
         height: auto;
+    }
+}
+
+.bg-home{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    position: absolute;
+    z-index: -1;
+}
+
+.bg-home__svg{
+    width: 150%;
+
+    @include responsive(xl){
+        width: 100%;
     }
 }
