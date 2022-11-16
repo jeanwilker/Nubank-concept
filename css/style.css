@@ -125,6 +125,21 @@
   }
 }
 
+.list-item {
+  list-style: none;
+  position: relative;
+  padding: 8px 8px 8px 72px;
+  margin-bottom: 48px;
+}
+.list-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -8px;
+  width: 45px;
+  height: 45px;
+}
+
 h1 {
   color: #161617;
   font-family: "Sora", sans-serif;
@@ -257,6 +272,37 @@ a:hover {
 .btn:hover {
   transform: scale(1.02);
   box-shadow: 0px 17px 31px rgba(169, 80, 196, 0.27), 0px 5.125px 9.34559px rgba(169, 80, 196, 0.175929), 0px 2.12866px 3.88168px rgba(169, 80, 196, 0.135), 0px 0.769896px 1.40393px rgba(169, 80, 196, 0.094071);
+}
+
+.link {
+  display: inline-block;
+  color: #82269E;
+  background-image: url("../../svg/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  padding: 16px 16px 16px 40px;
+  position: relative;
+}
+.link::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 75%;
+  left: 56px;
+  width: 0%;
+  height: 2px;
+  border-radius: 2px;
+  transition: 0.5s ease;
+  background-color: #BB71D2;
+}
+.link:hover {
+  opacity: 0.8;
+  padding-left: 64px;
+  background-position: 8px 50%;
+}
+.link:hover::after {
+  width: 100%;
+  background-color: #BB71D2;
 }
 
 .s-0 {
@@ -587,6 +633,7 @@ svg, img {
 
 header {
   width: 100%;
+  height: 72px;
   box-shadow: none;
   background-color: transparent;
   position: fixed;
@@ -847,6 +894,17 @@ header {
 
 .dropshadow {
   filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+}
+
+.bg-icon__check::after {
+  background-image: url("../../svg/icon-check.svg");
+  background-size: cover;
+  transition: 0.5s ease;
+  cursor: pointer;
+  filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
+}
+.bg-icon__check:hover::after {
+  transform: scale(1.05);
 }
 
 .div-card {

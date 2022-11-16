@@ -167,3 +167,21 @@ $container-s: 540px;
         width: 100%;
     }
 }
+
+.list-item{
+    list-style: none;
+    position: relative;
+
+    padding: 8px 8px 8px 72px;
+    margin-bottom: 48px;
+
+    &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -8px;
+
+        width: 45px;
+        height: 45px;
+    }
+}
