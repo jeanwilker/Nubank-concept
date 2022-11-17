@@ -45,11 +45,11 @@
   }
 
   // H5
-  @else if $size == h4 and $device == desktop {
+  @else if $size == h5 and $device == desktop {
     font-size: 18px;
     line-height: 140%;
   }
-  @else if $size == h4 and $device == mobile {
+  @else if $size == h5 and $device == mobile {
     font-size: 16px;
     line-height: 150%;
   }
