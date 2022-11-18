@@ -181,6 +181,25 @@
   }
 }
 
+.bg-invite {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.svg-invite {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+@media screen and (max-width: 960px) {
+  .svg-invite {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+}
+
 h1 {
   color: #161617;
   font-family: "Sora", sans-serif;
@@ -1603,5 +1622,97 @@ header {
     stroke-width: 4;
     stroke-dasharray: 400 0;
     stroke-opacity: 1;
+  }
+}
+.fignu5-ball1 {
+  transform: translate3d(-100px, -20px, 0);
+  -webkit-animation: fignu5-ball1 12s ease 1s infinite alternate;
+          animation: fignu5-ball1 12s ease 1s infinite alternate;
+}
+
+@-webkit-keyframes fignu5-ball1 {
+  0%, 10% {
+    transform: translate3d(-100px, -20px, 0);
+  }
+  90%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fignu5-ball1 {
+  0%, 10% {
+    transform: translate3d(-100px, -20px, 0);
+  }
+  90%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.fignu5-ball2 {
+  transform: translate3d(-100px, 150px, 0);
+  -webkit-animation: fignu5-ball2 12s ease 0.5s infinite alternate;
+          animation: fignu5-ball2 12s ease 0.5s infinite alternate;
+}
+
+@-webkit-keyframes fignu5-ball2 {
+  0%, 10% {
+    transform: translate3d(-100px, 150px, 0);
+  }
+  90%, 100% {
+    transform: translate3d(-50px, 50px, 0);
+  }
+}
+
+@keyframes fignu5-ball2 {
+  0%, 10% {
+    transform: translate3d(-100px, 150px, 0);
+  }
+  90%, 100% {
+    transform: translate3d(-50px, 50px, 0);
+  }
+}
+.fignu5-ball3 {
+  transform: translate3d(-200px, 100px, 0);
+  -webkit-animation: fignu5-ball3 12s ease 1.3s infinite alternate;
+          animation: fignu5-ball3 12s ease 1.3s infinite alternate;
+}
+
+@-webkit-keyframes fignu5-ball3 {
+  0%, 10% {
+    transform: translate3d(-200px, 100px, 0);
+  }
+  90%, 100% {
+    transform: translate3d(0px, -50px, 0);
+  }
+}
+
+@keyframes fignu5-ball3 {
+  0%, 10% {
+    transform: translate3d(-200px, 100px, 0);
+  }
+  90%, 100% {
+    transform: translate3d(0px, -50px, 0);
+  }
+}
+.fignu5-ball4 {
+  transform: translate3d(0px, 0px, 0);
+  -webkit-animation: fignu5-ball4 12s ease 2s infinite alternate;
+          animation: fignu5-ball4 12s ease 2s infinite alternate;
+}
+
+@-webkit-keyframes fignu5-ball4 {
+  0%, 10% {
+    transform: translate3d(0px, 0px, 0);
+  }
+  90%, 100% {
+    transform: translate3d(100px, 100px, 0);
+  }
+}
+
+@keyframes fignu5-ball4 {
+  0%, 10% {
+    transform: translate3d(0px, 0px, 0);
+  }
+  90%, 100% {
+    transform: translate3d(100px, 100px, 0);
   }
 }/*# sourceMappingURL=style.css.map */
