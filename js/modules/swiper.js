@@ -2,7 +2,7 @@ export default function initSwiper() {
 
 	let swiper = new Swiper('.swiper-container', {
 		slidesPerView: 'auto',
-		spaceBetween: 40,
+		spaceBetween: 48,
 		grabCursor: true,
 		pagination: {
 			el: '.swiper-pagination',
