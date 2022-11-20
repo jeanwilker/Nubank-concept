@@ -36,6 +36,6 @@ Esse projeto foi desenvolvido com as seguintes bibliotecas:
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/KpDr6Cd2aPYQWzIiBw9Cbd/Nubank?node-id=855%3A4&t=NvwIYYxOLJyBI8NE-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-Interaja com o componente: [LINK](https://card-pay-explorer.netlify.app/).
+Interaja com o componente: [LINK](https://nubank-concept.netlify.app/).
 
 ---
