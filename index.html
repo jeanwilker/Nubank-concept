@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="./js/svg-inject.min.js"></script>
     <title>Nubank</title>
 </head>
@@ -28,7 +29,7 @@
             <a href="">Login</a>
         </nav>
 
-        <nav class="navbar-desktop">
+        <nav class="navbar-desktop" data-aos="fade-up" data-aos-delay="200">
             <div class="navbar-desktop__item-1">
                 <div class="logo">
                     <a href="#">
@@ -103,7 +104,7 @@
         <img src="./svg/bg-home.svg" class="bg-home__svg" alt="" onload="SVGInject(this)">
     </div>
     <main class="container hero py-5">
-        <div class="flex-item-1 py-3">
+        <div class="flex-item-1 py-3" data-aos="fade-up">
             <h1>Ser Nubank é reinventar sua vida financeira.</h1>
             <p class="my-2">
                 Conta com rendimento acimada poupança, cartão de crédito sem
@@ -120,7 +121,7 @@
             </div>
         </div>
 
-        <div class="flex-item-3 div-card flex-center py-4">
+        <div class="flex-item-3 div-card flex-center py-4" data-aos="fade-up" data-aos-delay="400">
             <img src="./svg/icon-card.svg" class="icon-card__hero dropshadow" alt="Ícone card" onload="SVGInject(this)">
             <img src="./svg/icon-mobile.svg" class="icon-mobile__hero dropshadow" alt="Ícone mobile" onload="SVGInject(this)">
             <img src="./svg/icon-contactless.svg" class="icon-contactless__hero dropshadow" alt="Ícone contactless" onload="SVGInject(this)">
@@ -130,7 +131,7 @@
 
     <!--========= SECTION PEOPLE =========-->
     <section class="container">
-        <div class="flex-item-4 flex-column">
+        <div class="flex-item-4 flex-column" data-aos="fade-up" data-aos-delay="0">
             <h5>Para todos</h5>
             <h2 class="mt-2">Completo.</h2>
             <p class="my-2">
@@ -157,11 +158,11 @@
             </p>
         </div>
 
-        <div class="flex-item-3 mx-2">
+        <div class="flex-item-3 mx-2" data-aos="fade-up" data-aos-delay="200">
             <img src="./svg/svg-people1.svg" alt="Imagens aleatórias de pessoas" onload="SVGInject(this)">
         </div>
 
-        <div class="flex-item-1 flex-column mx-2 my-3">
+        <div class="flex-item-1 flex-column mx-2 my-3" data-aos="fade-up" data-aos-delay="0">
             <img src="./svg/svg-people2.svg" class="mx-2 my-2" id="people2" alt="Imagens aleatórias de pessoas" onload="SVGInject(this)">
             <img src="./svg/svg-people3.svg" class="mx-2 my-2" alt="Imagens aleatórias de pessoas" onload="SVGInject(this)">
         </div>
@@ -169,7 +170,7 @@
 
     <!--========= SECTION BEST =========-->
     <section class="container">
-        <div class="best px-3 py-4">
+        <div class="best px-3 py-4" data-aos="fade-up" data-aos-delay="200">
             <div class="flex-item-auto">
                 <h5>O melhor</h5>
                 <h3 class="mt-2">Por que Nubank?</h3>
@@ -195,10 +196,10 @@
 
     <!--========= SECTION DIGITAL ACCOUNT =========-->
     <section class="container">
-        <div class="flex-item-1 p-3">
+        <div class="flex-item-1 p-3" data-aos="fade-up" data-aos-delay="0">
             <img src="./svg/fignu2.svg" class="" alt="" onload="SVGInject(this)">
         </div>
-        <div class="flex-column flex-item-1">
+        <div class="flex-column flex-item-1" data-aos="fade-up" data-aos-delay="200">
             <h5>Conta digital</h5>
             <h2 class="mt-2">Tudo pelo App.</h2>
             <p class="my-2">
@@ -237,7 +238,7 @@
 
     <!--========= SECTION CARD =========-->
     <section class="container">
-        <div class="flex-column flex-item-1">
+        <div class="flex-column flex-item-1" data-aos="fade-up" data-aos-delay="0">
             <h5>Seu Roxinho</h5>
             <h2 class="mt-2">Crédito e débito.</h2>
             <p class="my-2">
@@ -266,17 +267,17 @@
             </p>
         </div>
 
-        <div class="flex-item-1 p-3">
+        <div class="flex-item-1 p-3" data-aos="fade-up" data-aos-delay="200">
             <img src="./svg/fignu3.svg" class="" alt="Imagens do cartão em pespectiva 3D." onload="SVGInject(this)">
         </div>
     </section>
 
     <!--========= SECTION SLIDER =========-->
-    <section class="box">
+    <section class="box" data-aos="fade-up" data-aos-delay="200">
         <h5>Depoimentos</h5>
         <h2 class="mt-2">Todos amam o roxinho</h2>
     </section>
-    <section class="container-swiper">
+    <section class="container-swiper" data-aos="fade-up" data-aos-delay="200">
         <div class="swiper-container hidden">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -339,7 +340,7 @@
 
     <!--========= SECTION APP NUBANK =========-->
     <section class="container">
-        <div class="flex-column flex-item-1">
+        <div class="flex-column flex-item-1" data-aos="fade-up" data-aos-delay="0">
             <h5>Faça sua conta</h5>
             <h2 class="mt-2">Baixe. É gratuito.</h2>
             <p class="my-2">
@@ -353,17 +354,17 @@
             </div>
         </div>
 
-        <div class="flex-item-1 p-3">
+        <div class="flex-item-1 p-3" data-aos="fade-up" data-aos-delay="200">
             <img src="./svg/fignu4.svg" class="" alt="Logo animada da Nubank." onload="SVGInject(this)">
         </div>
     </section>
 
-    <!--========= SECTION APP NUBANK =========-->
+    <!--========= SECTION INVITE =========-->
     <div class="bg-invite flex-center relative">
         <img src="./svg/fignu5.svg" class="svg-invite w-auto" alt="" onload="SVGInject(this)">
 
         <section class="container">
-            <div class="flex-item-1 flex-center flex-column">
+            <div class="flex-item-1 flex-center flex-column" data-aos="fade-up" data-aos-delay="200">
                 <h5>Nuconta</h5>
                 <h2 class="mt-2 text-center">O melhor dos bancos digitais. Pra você!</h2>
                 <p class="my-2 text-center">
@@ -449,6 +450,7 @@
     </footer>
 
     <script type="module" src="./js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
