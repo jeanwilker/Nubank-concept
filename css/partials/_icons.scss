@@ -1,121 +1,130 @@
-.dropshadow{
-	filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25)) 
+.dropshadow {
+    filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
 }
 
-.bg-icons__mobile{
-	&::after{
-		background-image: url('../../svg/icon-mobile.svg');
-		background-size: cover;
-		transition: .5s ease;
+.bg-icons__mobile {
+    &::after {
+        background-image: url('../../svg/icon-mobile.svg');
+        background-size: cover;
+        transition: 0.5s ease;
 
-		cursor: pointer;
+        cursor: pointer;
 
-		filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
-	}
+        filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
+    }
 
-	&:hover{
-		&::after{
-			transform: scale(1.05);
-		}
-	}
+    &:hover {
+        &::after {
+            transform: scale(1.05);
+        }
+    }
 }
 
-.bg-icons__time{
-	&::after{
-		background-image: url('../../svg/icon-time.svg');
-		background-size: cover;
-		transition: .5s ease;
+.bg-icons__time {
+    &::after {
+        background-image: url('../../svg/icon-time.svg');
+        background-size: cover;
+        transition: 0.5s ease;
 
-		cursor: pointer;
+        cursor: pointer;
 
-		filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
-	}
+        filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
+    }
 
-	&:hover{
-		&::after{
-			transform: scale(1.05);
-		}
-	}
+    &:hover {
+        &::after {
+            transform: scale(1.05);
+        }
+    }
 }
 
-.bg-icons__config{
-	&::after{
-		background-image: url('../../svg/icon-config.svg');
-		background-size: cover;
-		transition: .5s ease;
+.bg-icons__config {
+    &::after {
+        background-image: url('../../svg/icon-config.svg');
+        background-size: cover;
+        transition: 0.5s ease;
 
-		cursor: pointer;
+        cursor: pointer;
 
-		filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
-	}
+        filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
+    }
 
-	&:hover{
-		&::after{
-			transform: scale(1.05);
-		}
-	}
+    &:hover {
+        &::after {
+            transform: scale(1.05);
+        }
+    }
 }
 
-.bg-icon__check{
-	&::after{
-		background-image: url('../../svg/icon-check.svg');
-		background-size: cover;
-		transition: .5s ease;
+.bg-icon__check {
+    &::after {
+        background-image: url('../../svg/icon-check.svg');
+        background-size: cover;
+        transition: 0.5s ease;
 
-		cursor: pointer;
+        cursor: pointer;
 
-		filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
-	}
+        filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
+    }
 
-	&:hover{
-		&::after{
-			transform: scale(1.05);
-		}
-	}
+    &:hover {
+        &::after {
+            transform: scale(1.05);
+        }
+    }
 }
 
-.bg-icon__contactless{
-	&::after{
-		background-image: url('../../svg/icon-contactless.svg');
-		background-size: cover;
-		transition: .5s ease;
+.bg-icon__contactless {
+    &::after {
+        background-image: url('../../svg/icon-contactless.svg');
+        background-size: cover;
+        transition: 0.5s ease;
 
-		cursor: pointer;
+        cursor: pointer;
 
-		filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
-	}
+        filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
+    }
 
-	&:hover{
-		&::after{
-			transform: scale(1.05);
-		}
-	}
+    &:hover {
+        &::after {
+            transform: scale(1.05);
+        }
+    }
 }
 
-.bg-icon__card{
-	&::after{
-		background-image: url('../../svg/icon-card.svg');
-		background-size: cover;
-		transition: .5s ease;
+.bg-icon__card {
+    &::after {
+        background-image: url('../../svg/icon-card.svg');
+        background-size: cover;
+        transition: 0.5s ease;
 
-		cursor: pointer;
+        cursor: pointer;
 
-		filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
-	}
+        filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
+    }
 
-	&:hover{
-		&::after{
-			transform: scale(1.05);
-		}
-	}
+    &:hover {
+        &::after {
+            transform: scale(1.05);
+        }
+    }
 }
 
-.icon{
-	filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
-	transition: .5s ease;
-	cursor: pointer;
+.icon {
+    filter: drop-shadow(0px 10px 14px rgba(169, 80, 196, 0.25));
+    transition: 0.5s ease;
+    cursor: pointer;
 
-	&:hover{
-		transform: scale(1.05);
-	}
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.icons-networks {
+    max-width: 48px;
+    padding: 8px;
+}
+
+.footer-logo__nu {
+    max-width: 96px;
 }

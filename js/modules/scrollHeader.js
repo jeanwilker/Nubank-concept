@@ -1,14 +1,13 @@
 export default function initScrollheader() {
+    function scrollHeader() {
+        const nav = document.getElementById('header');
 
-	function scrollHeader() {
-		const nav = document.getElementById('header');
+        if (this.scrollY >= 50) {
+            nav.classList.add('active-header');
+        } else {
+            nav.classList.remove('active-header');
+        }
+    }
 
-		if(this.scrollY >= 50) {
-			nav.classList.add('active-header');
-		}else{
-			nav.classList.remove('active-header');
-		}
-	}
-
-	window.addEventListener('scroll', scrollHeader);
+    window.addEventListener('scroll', scrollHeader);
 }
