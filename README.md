@@ -10,7 +10,7 @@
 <br>
 
 <p align="center">
-  <img alt="Nubank - concept" src=".github/project-nu.png" width="100%">
+  <img alt="Nubank - concept" src=".github/Nubank_concept.png" width="100%">
 </p>
 
 ## 💻 Projeto
